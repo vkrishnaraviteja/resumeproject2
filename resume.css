@@ -1,0 +1,68 @@
+.parent{
+  border:3px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+.leftchild img{
+  width: 30%;
+}
+.leftchild{
+  border: 2px solid #ddd;
+  padding:1%;
+  margin: 1%;
+  font-size: 20px;
+}
+.rightchild{
+  border:2px solid #ddd;
+  padding:1%;
+  margin: 1%;
+  font-size: 20px;
+}
+  @media only screen and (min-width:320px) and (max-width:480px){
+    .parent{
+      border:3px solid #ddd;
+      display: flex;
+      flex-direction: row;
+    }
+    .leftchild img{
+      width: 30%;
+    }
+    .leftchild{
+      border: 2px solid #ddd;
+      padding:1%;
+      width: 90%;
+      margin: 1%;
+      font-size: 20px;
+    }
+    .rightchild{
+      border:2px solid #ddd;
+      padding:1%;
+      margin: 1%;
+      font-size: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width:481px) and (max-width:769px){
+  .parent{
+    border:3px solid #ddd;
+    display: flex;
+    flex-direction: row;
+  }
+  .leftchild img{
+    width: 30%;
+  }
+  .leftchild{
+    border: 2px solid #ddd;
+    padding:1%;
+    margin: 1%;
+    font-size: 20px;
+  }
+  .rightchild{
+    border:2px solid #ddd;
+    padding:1%;
+    margin: 1%;
+    font-size: 20px;
+  }
+
+}
